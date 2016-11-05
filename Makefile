@@ -1,4 +1,4 @@
-APPLICATIONS := ''
+APPLICATIONS := ofauth
 APPLICATIONS_COMMA := $(shell echo $(APPLICATIONS) | tr ' ' ',')
 
 .PHONY: help
